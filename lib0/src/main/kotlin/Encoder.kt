@@ -3,7 +3,7 @@ package com.riguz.y.lib0
 import java.io.ByteArrayOutputStream
 import java.nio.charset.StandardCharsets
 
-@OptIn(ExperimentalUnsignedTypes::class)
+@ExperimentalUnsignedTypes
 interface Encoder {
     fun writeUint8(number: UByte)
     fun writeUint16(number: UShort)
